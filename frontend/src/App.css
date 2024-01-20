@@ -1,0 +1,21 @@
+.navbar {
+  height: 20vh;
+  background-color: black;
+  color: white;
+}
+.footer {
+  height: 20vh;
+  background-color: brown;
+  color: white;
+}
+.hero {
+  height: 100vh;
+  background-color: blue;
+  color: black;
+}
+
+.flexContainer {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 2rem !important;
+}
